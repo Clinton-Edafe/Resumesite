@@ -1,0 +1,92 @@
+/* General Reset */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+/* Hamburger Menu Styles */
+.hamburger-menu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+#menu-items {
+    list-style: none;
+    background-color: #0044cc;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    display: none; /* Initially hidden */
+    z-index: 10;
+}
+
+#menu-items li {
+    margin: 10px 0;
+}
+
+#menu-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Main Section */
+.resume-body {
+    background: url('../images/background.jpg') no-repeat center center/cover;
+    height: calc(100vh - 180px); /* Adjust based on header and footer height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-body h2 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
